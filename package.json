@@ -1,0 +1,27 @@
+{
+  "name": "@crowsi/interaction-transport",
+  "version": "0.10.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "exports": {
+    "./stdio": "./src/stdio.mjs",
+    "./client": "./src/client.mjs",
+    "./http": "./src/http.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crowsi-net/crowsi-interaction-transport.git"
+  }
+}
